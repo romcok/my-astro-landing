@@ -1,40 +1,45 @@
-# Astro Starter Kit: Basics
+# My Personal Landing Page
 
-```
-npm create astro@latest -- --template basics
-```
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/romcok/my-astro-landing)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/romcok/my-astro-landing)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
+![basics](./assets/screenshot.png)
+> Just rename and change `config.example.json` to get your personal landing page.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
-
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+## 🔧 Configuration
+```JSON
+{
+  "title": "Here is Roman",
+  "description": "A Software Engineer and Entrepreneur.",
+  "linkLabel": "Go to my resume",
+  "linkUrl": "https://resume.romcok.com",
+  "cloudflareToken": "",
+  "githubRepository": ""
+}
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 🚀 Example
+View a example [here](https://romcok.com)
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-Any static assets, like images, can be placed in the `public/` directory.
+## 👷 Installation
+
+Run the following command in your terminal ***(If you don't have pnpm use npm instead)***
+
+```bash
+pnpm install
+```
+
+Once the packages are installed you are ready to run astro. Astro comes with a built-in development server that has everything you need for project development. The astro dev command will start the local development server so that you can see your new website in action for the very first time.
+
+```bash
+pnpm dev
+```
+
+## 🚚 Deployment
+
+## TODO
+- Social networks
 
 ## 🧞 Commands
 
@@ -49,6 +54,6 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## License
+This module is released under the MIT License.
